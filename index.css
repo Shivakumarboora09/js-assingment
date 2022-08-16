@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #f7faf9;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #141414;
+    text-align: center;
+    padding: 12px 14px;
+   
+    font-size: 15px;
+  }
+  
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+    margin-top: 20px;
+}
+.space{
+  margin-top: 25px;
+}
+.start {
+  margin-top: 30px;
+}
+.Total{ 
+  background-color: #303dc9;
+  color: #f7faf9;
+  padding: 25px 50px;
+  margin: 10px;
+  margin-left: 30px;
+  border-radius: 15px;
+  
+   
+ }
+.Inprocess {
+  background-color: #f2e013;
+  color: #f7faf9;
+  padding: 25px 50px;
+  margin: 10px;
+  border-radius: 15px;
+
+   
+}
+.Completed {
+  background-color: #168026;
+  color: #f7faf9;
+  padding: 25px 50px;
+  margin: 10px;
+  border-radius: 15px;  
+}
+
+.pig {float:right;
+}
+.clock {float:right;
+}
+.check {float:right;
+}
+.colomn1{
+  background-color: #ebf6fa;
+  margin: 10px;
+  border-radius: 15px;
+}
+.colomn2{
+  
+  background-color: #ebf6fa;
+ 
+  margin: 10px;
+  border-radius: 15px;
+}
+.colomn3{
+  background-color: #ebf6fa;
+ 
+  margin: 10px;
+  border-radius: 15px;
+}
+.colomn4{
+  background-color: #ebf6fa;
+
+  margin: 10px;
+  border-radius: 15px;
+}
+
+
+.mapandtable {
+  
+  margin: 10px;
+  background-color: #ebf6fa;
+  
+}
+.table2 {
+  margin-right:5px; 
+}

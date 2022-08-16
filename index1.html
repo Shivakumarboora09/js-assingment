@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+window.onload = function() { 
+ 
+var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "light2",
+	title: {
+		text: "Iron Ore Production in India"
+	},
+	axisX: {
+		title: "Fiscal Year"
+	},
+	axisY: {
+		title: "Production ( in million tonnes )",
+		includeZero: true
+	},
+	data: [{
+		type: "line",
+		yValueFormatString: "#,##0mn tonnes",
+		dataPoints : <%out.print(dataPoints);%>
+	}]
+});
+chart.render();
+ 
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>   

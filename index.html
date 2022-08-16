@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/3abdb297d8.js" crossorigin="anonymous"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.4/Chart.js"></script>
+
+
+
+
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#">Projects</a>
+  <a href="#">Languages</a>
+  <a href="#">Language Transition Engines</a>
+  <a href="#">DashBoard</a>
+  <a href="#">User Management</a>
+</div>
+
+
+<div class="d-flex justify-content-end">  
+  <label class="start" for="start">Date:</label>
+
+  <input type="date" id="start" name="trip-start">
+         
+    <p class="space"> - </p> 
+  <input type="date" id="start" name="trip-start">
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="Total col align-self-start">
+      
+      <p>525
+        <i class="pig fa-solid fa-piggy-bank"></i>
+      </p>
+      
+       
+      <p>Total OnBoard Projects</p>
+        </div>
+    <div class="Inprocess col align-self-start">
+      <p>282
+        <i class="clock fa fa-clock"></i>
+      </p>
+      
+    <p>Traslation in progress</p>
+        </div>
+    <div class="Completed col align-self-start">
+    <p>243
+      <i class="check fa fa-check"></i>
+    </p>
+    
+  <p>Translation Completed</p>
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-2">
+    <div class="line col">
+      <div class="colomn1 container">Chatacters Translated
+        <p><b>65,894,387</b></p>
+      <canvas id="myChart" style="height:20%;width:100%;max-width:600px"></canvas>
+    <script src="index.js"></script>
+  </div>
+    </div>
+    <div class="line col">
+      <div class="colomn2 container">Translation Memory capacity
+        <p><b>5GB</b></p>
+        <canvas id="myChart2" style="height:20%;width:100%;max-width:600px"></canvas>
+      <script src="index2.js"></script>
+    </div>
+    </div>
+    <div class="line col">
+      <div class="colomn3 container">Human in The middle Reviews
+        <p><b>43,487</b></p>
+        <canvas id="myChart3" style="height:20%;width:100%;max-width:600px"></canvas>
+      <script src="index3.js"></script>
+    </div>
+    </div>
+    <div class="line col">
+      <div class="colomn4 container">Total Savingss
+        <p><b>$1,376,923</b></p>
+        <canvas id="myChart4" style="height:20%;width:100%;max-width:600px"></canvas>
+      <script src="index4.js"></script>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="mapandtable row">
+    <div class="col-9">
+      <img src="C:\Users\aifau\Downloads\worldmap.jpg" style="height:75vh"class="worldmap img-fluid" >
+    </div>
+    <div class="col-1" style="height:50vh">
+     
+  <table class="table">
+   
+    <tbody>
+      <tr>
+        <th scope="row">USA</th>
+        <td>176,880</td>
+      </tr>
+      <tr>
+        <th scope="row">France</th>
+        <td>54,748</td>
+      </tr>
+      <tr>
+        <th scope="row">Austrila</th>
+        <td>88,068</td>
+      </tr>
+      <tr>
+        <th scope="row">China</th>
+        <td>96,304</td>
+      </tr>
+      <tr>
+        <th scope="row">Mexico</th>
+        <td>75,909</td>
+      </tr>
+      <tr>
+        <th scope="row">Indonesia</th>
+        <td>66,870</td>
+      </tr>
+      <tr>
+        <th scope="row">Brazil</th>
+        <td>14,757</td>
+      </tr>
+      <tr>
+        <th scope="row">phlippnies</th>
+        <td>77,482</td>
+      </tr>
+      <tr>
+        <th scope="row">Cubia</th>
+        <td>18,418</td>
+      </tr>
+      <tr>
+        <th scope="row">Iran</th>
+        <td>74,834</td>
+      </tr>
+      <tr>
+        <th scope="row">UK</th>
+        <td>89,934</td>
+      </tr>
+      <tr>
+        <th scope="row">Japan</th>
+        <td>25,808</td>
+      </tr>
+      <tr>
+        <th scope="row">Africa</th>
+        <td>93,998</td>
+      </tr>
+      <tr>
+        <th scope="row">Argentina</th>
+        <td>72,762</td>
+      </tr>
+    </tbody>
+  </table>
+
+    </div>
+    
+  </div>
+</div>
+
+<div class="table2 container">
+  <div class="row">
+    <div class="col-4">
+
+      <table class="table table-bordered">
+   
+        <tbody>
+          <tr>
+            <th scope="row">Translation by Language</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">Japanese</th>
+            <td>82,776</td>
+          </tr>
+          <tr>
+            <th scope="row">Portuguese</th>
+            <td>75,477</td>
+          </tr>
+          <tr>
+            <th scope="row">Germany</th>
+            <td>59,055</td>
+          </tr>
+          <tr>
+            <th scope="row">English</th>
+            <td>58,150</td>
+          </tr>
+          <tr>
+            <th scope="row">Italian</th>
+            <td>56,956</td>
+          </tr>
+          <tr>
+            <th scope="row">hindi</th>
+            <td>43,229</td>
+          </tr>
+          <tr>
+            <th scope="row">Spanish</th>
+            <td>42,757</td>
+          </tr>
+          <tr>
+            <th scope="row">Turkish</th>
+            <td>35,482</td>
+          </tr>
+          <tr>
+            <th scope="row">Russian</th>
+            <td>26,933</td>
+          </tr>
+        </tbody>
+      </table>
+    
+      
+    </div>
+  </div>
+
+
+
+</body>
+</html>
+
